@@ -1,0 +1,14 @@
+{
+  "TopicName": "coffee",
+  "Description": "커피 관련 토픽입니다.",
+  "Data": [
+    {
+      "question": "커피 주문",
+      "response": "어떤 커피를 주문하시겠습니까?"
+    },
+    {
+      "question": "아이스 아메리카노",
+      "response": "아이스 아메리카노~?"
+    }
+  ]
+}
