@@ -1,0 +1,81 @@
+{
+  "TopicName": "forcewin",
+  "Description": "포스윈 관련 토픽입니다.",
+  "Data": [
+    {
+      "question": "포스윈 안내",
+      "response": [
+      {
+        "layout": "default",
+        "group": [
+          {
+            "template": "text",
+            "message": "어떤 부분을 알려드릴까요?"
+          },
+          {
+            "template": "group",
+            "layout": "hs",
+            "group": [
+              {
+                "template": "img",
+                "name": "부서 안내",
+                "resource": "static/img/ice.png",
+                "value": "부서 안내"
+              },
+              {
+                "template": "img",
+                "name": "제품 안내",
+                "resource": "static/img/hot.png",
+                "value": "제품 안내"
+              },
+              {
+                "template": "img",
+                "name": "회사 위치 안내",
+                "resource": "static/img/ice.png",
+                "value": "회사 위치 안내"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "default",
+        "group": [
+          {
+            "template": "text",
+            "message": "이 중 없다면 저도 몰라요"
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "question": "부서 안내",
+      "response": [
+      {
+        "layout": "default",
+        "group": [
+          {
+            "template": "img",
+            "name": "솔루션 사업본부",
+            "resource": "static/img/ice.png",
+            "value": "솔루션 사업본부"
+          },
+          {
+            "template": "img",
+            "name": "경영 지원실",
+            "resource": "static/img/ice.png",
+            "value": "경영 지원실"
+          },
+          {
+            "template": "img",
+            "name": "전략사업 본부",
+            "resource": "static/img/ice.png",
+            "value": "전략사업 본부"
+          }
+        ]
+      }
+    ]
+    }
+  ]
+}

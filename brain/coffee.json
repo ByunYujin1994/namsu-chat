@@ -4,11 +4,76 @@
   "Data": [
     {
       "question": "커피 주문",
-      "response": "어떤 커피를 주문하시겠습니까?"
+      "response": [
+      {
+        "layout": "default",
+        "group": [
+          {
+            "template": "text",
+            "message": "어떤 커피를 주문하시겠습니까?"
+          },
+          {
+            "template": "group",
+            "layout": "hs",
+            "group": [
+              {
+                "template": "img",
+                "name": "아이스 아메리카노",
+                "resource": "static/img/ice.png",
+                "value": "아이스 아메리카노"
+              },
+              {
+                "template": "img",
+                "name": "핫 아메리카노",
+                "resource": "static/img/hot.png",
+                "value": "핫 아메리카노"
+              },
+              {
+                "template": "img",
+                "name": "카페라떼",
+                "resource": "static/img/ice.png",
+                "value": "카페라떼"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layout": "default",
+        "group": [
+          {
+            "template": "text",
+            "message": "안녕안"
+          },
+          {
+            "template": "group",
+            "layout": "hs",
+            "group": [
+              {
+                "template": "img",
+                "name": "아이스 아메리카노",
+                "resource": "static/img/ice.png",
+                "value": "아이스 아메리카노"
+              }
+            ]
+          }
+        ]
+      }
+    ]
     },
     {
-      "question": "아이스 아메리카노",
-      "response": "아이스 아메리카노~?"
+      "question": "(@ coffee)",
+      "response": [
+        {
+          "layout": "default",
+          "group": [
+            {
+              "template": "text",
+              "message": "<star> 주문받았습니다."
+            }
+          ]
+        }
+        ]
     }
   ]
 }
